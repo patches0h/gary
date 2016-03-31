@@ -1,0 +1,61 @@
+{
+	box-sizing: border-box;
+}
+
+
+body {
+	background-image: url("../img/backgary1.jpg");
+	color: blue;
+	font-weight: bold;
+}
+
+div {
+	background-color:rgba(255, 255, 255, 0.5);
+}
+
+
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	height: 60px;
+	padding: 20px;
+	font-size: 30px;
+	border: solid 1px red;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.nav li{
+	display: inline-block;
+	text-align: center;
+	color: #00ff00;
+	font-size: 25px;
+	font-weight: normal;
+	border: 10px;
+	border-style: ridge;
+	width: 179px;
+}
+
+.content {
+	float: left;
+	text-align: center;
+	width: 424px;
+	padding: 0px 10px;
+	border: 3px;
+	border-style: ridge;
+	margin-left: 225px;
+}
+
+.valedict {
+	text-align: left;
+	display: inline;
+}
+
+.adbar img{
+	width: 200px;
+	padding-top: 150px;
+	float: right;
+}
