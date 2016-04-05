@@ -65,7 +65,9 @@ header {
 }
 
 #disqus_thread {
-	width: 400px;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: white;
 }
 
 .adbar {
@@ -78,5 +80,6 @@ header {
 
 #disqus_wrapper {
 	margin-left: auto;
-	margin-right: auto:;
+	margin-right: auto;
+	width: 424px;
 }
