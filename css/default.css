@@ -72,11 +72,9 @@ header {
 
 .adbar {
 	float: right;
-}
-
-.adbar img {
 	padding-top: 150px;
 }
+
 
 #disqus_wrapper {
 	margin-left: auto;
