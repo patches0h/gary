@@ -53,6 +53,10 @@ header {
 	display: inline;
 }
 
+#disqus_thread {
+	width: 400px;
+}
+
 .adbar img{
 	width: 200px;
 	padding-top: 150px;
