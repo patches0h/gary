@@ -11,7 +11,8 @@ body {
 
 header,
 .nav,
-.content {
+.content,
+#disqus_wrapper {
 	background-color:rgba(255, 255, 255, 0.5);
 }	
 
@@ -73,4 +74,9 @@ header {
 
 .adbar img {
 	padding-top: 150px;
+}
+
+#disqus_wrapper {
+	margin-left: auto;
+	margin-right: auto:;
 }
