@@ -1,4 +1,4 @@
-{
+* {
 	box-sizing: border-box;
 }
 
@@ -9,9 +9,11 @@ body {
 	font-weight: bold;
 }
 
-div {
+header,
+.nav,
+.content {
 	background-color:rgba(255, 255, 255, 0.5);
-}
+}	
 
 
 .wrapper {
@@ -20,11 +22,18 @@ div {
 }
 
 header {
-	height: 60px;
-	padding: 20px;
 	font-size: 30px;
 	text-align: center;
 	font-weight: bolder;
+}
+
+.nav {
+	text-align: center;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 20px 0 0 0;
 }
 
 .nav li{
@@ -35,17 +44,18 @@ header {
 	font-weight: normal;
 	border: 10px;
 	border-style: ridge;
-	width: 179px;
+	width: 199px;
 }
 
 .content {
-	float: left;
 	text-align: center;
 	width: 424px;
-	padding: 0px 10px;
+	padding: 20px 10px;
 	border: 3px;
 	border-style: ridge;
-	margin-left: 225px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .valedict {
@@ -57,8 +67,10 @@ header {
 	width: 400px;
 }
 
-.adbar img{
-	width: 200px;
-	padding-top: 150px;
+.adbar {
 	float: right;
+}
+
+.adbar img {
+	padding-top: 150px;
 }
